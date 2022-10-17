@@ -7,23 +7,64 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		040E666328FD0A5100A6AF1F /* ProgramaticLaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E666228FD0A5100A6AF1F /* ProgramaticLaunchScreenViewController.swift */; };
+		040E668928FD0F7900A6AF1F /* HBOMax.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040E668728FD0F7900A6AF1F /* HBOMax.xcdatamodeld */; };
+		040E668B28FD16A600A6AF1F /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040E668A28FD16A600A6AF1F /* DataPersistenceManager.swift */; };
+		046DBAE328FCE4D400837C85 /* YoutubeResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DBAE228FCE4D400837C85 /* YoutubeResponse.swift */; };
+		046DBAE528FCE93A00837C85 /* MovieDetailsUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DBAE428FCE93A00837C85 /* MovieDetailsUIViewController.swift */; };
+		046DBAE728FCEAF600837C85 /* MovieDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DBAE628FCEAF600837C85 /* MovieDetailViewModel.swift */; };
+		046DBAEC28FCFE8600837C85 /* WhoIsWatchingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046DBAEB28FCFE8600837C85 /* WhoIsWatchingViewController.swift */; };
+		04944CD528FC2731009EA624 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04944CD428FC2731009EA624 /* SearchResultsViewController.swift */; };
+		04944CD828FC2DDE009EA624 /* SideMenu in Frameworks */ = {isa = PBXBuildFile; productRef = 04944CD728FC2DDE009EA624 /* SideMenu */; };
+		04966FDC28FC15AE00F52ED2 /* ContentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04966FDB28FC15AE00F52ED2 /* ContentTableViewCell.swift */; };
+		04966FDE28FC17F800F52ED2 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04966FDD28FC17F800F52ED2 /* ContentViewModel.swift */; };
+		04966FE028FC1E5A00F52ED2 /* Discover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04966FDF28FC1E5A00F52ED2 /* Discover.swift */; };
 		04C5B0DD28FB94EB0072BBB4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0DC28FB94EB0072BBB4 /* AppDelegate.swift */; };
 		04C5B0DF28FB94EB0072BBB4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0DE28FB94EB0072BBB4 /* SceneDelegate.swift */; };
-		04C5B0E128FB94EB0072BBB4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0E028FB94EB0072BBB4 /* ViewController.swift */; };
-		04C5B0E428FB94EB0072BBB4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5B0E228FB94EB0072BBB4 /* Main.storyboard */; };
+		04C5B0E128FB94EB0072BBB4 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0E028FB94EB0072BBB4 /* TabBarViewController.swift */; };
 		04C5B0E628FB94EE0072BBB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C5B0E528FB94EE0072BBB4 /* Assets.xcassets */; };
 		04C5B0E928FB94EF0072BBB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04C5B0E728FB94EF0072BBB4 /* LaunchScreen.storyboard */; };
+		04C5B0F228FB9CD70072BBB4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0F128FB9CD70072BBB4 /* MainViewController.swift */; };
+		04C5B0F428FB9CF80072BBB4 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0F328FB9CF80072BBB4 /* SearchViewController.swift */; };
+		04C5B0F628FB9D080072BBB4 /* DownloadedsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0F528FB9D080072BBB4 /* DownloadedsViewController.swift */; };
+		04C5B0FD28FBA50B0072BBB4 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0FC28FBA50B0072BBB4 /* CollectionViewTableViewCell.swift */; };
+		04C5B0FF28FBA8590072BBB4 /* FeaturedHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B0FE28FBA8590072BBB4 /* FeaturedHeaderView.swift */; };
+		04C5B10128FBBEF50072BBB4 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B10028FBBEF50072BBB4 /* APIManager.swift */; };
+		04C5B10328FBC2AF0072BBB4 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B10228FBC2AF0072BBB4 /* Movie.swift */; };
+		04C5B10528FBC4600072BBB4 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B10428FBC4600072BBB4 /* Extensions.swift */; };
+		04C5B10728FBCAC10072BBB4 /* ContentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C5B10628FBCAC10072BBB4 /* ContentCollectionViewCell.swift */; };
+		04C5B10A28FBCB890072BBB4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 04C5B10928FBCB890072BBB4 /* Kingfisher */; };
+		04C5B10D28FBCFF60072BBB4 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 04C5B10C28FBCFF60072BBB4 /* SDWebImage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		040E666228FD0A5100A6AF1F /* ProgramaticLaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgramaticLaunchScreenViewController.swift; sourceTree = "<group>"; };
+		040E668828FD0F7900A6AF1F /* HBOMax.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HBOMax.xcdatamodel; sourceTree = "<group>"; };
+		040E668A28FD16A600A6AF1F /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
+		046DBAE228FCE4D400837C85 /* YoutubeResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeResponse.swift; sourceTree = "<group>"; };
+		046DBAE428FCE93A00837C85 /* MovieDetailsUIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsUIViewController.swift; sourceTree = "<group>"; };
+		046DBAE628FCEAF600837C85 /* MovieDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailViewModel.swift; sourceTree = "<group>"; };
+		046DBAEB28FCFE8600837C85 /* WhoIsWatchingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhoIsWatchingViewController.swift; sourceTree = "<group>"; };
+		04944CD428FC2731009EA624 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		04966FDB28FC15AE00F52ED2 /* ContentTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewCell.swift; sourceTree = "<group>"; };
+		04966FDD28FC17F800F52ED2 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		04966FDF28FC1E5A00F52ED2 /* Discover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Discover.swift; sourceTree = "<group>"; };
 		04C5B0D928FB94EB0072BBB4 /* HBOMaxClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBOMaxClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C5B0DC28FB94EB0072BBB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04C5B0DE28FB94EB0072BBB4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		04C5B0E028FB94EB0072BBB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		04C5B0E328FB94EB0072BBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		04C5B0E028FB94EB0072BBB4 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		04C5B0E528FB94EE0072BBB4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04C5B0E828FB94EF0072BBB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04C5B0EA28FB94EF0072BBB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04C5B0F128FB9CD70072BBB4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		04C5B0F328FB9CF80072BBB4 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		04C5B0F528FB9D080072BBB4 /* DownloadedsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadedsViewController.swift; sourceTree = "<group>"; };
+		04C5B0FC28FBA50B0072BBB4 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
+		04C5B0FE28FBA8590072BBB4 /* FeaturedHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedHeaderView.swift; sourceTree = "<group>"; };
+		04C5B10028FBBEF50072BBB4 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		04C5B10228FBC2AF0072BBB4 /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		04C5B10428FBC4600072BBB4 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		04C5B10628FBCAC10072BBB4 /* ContentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +72,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04C5B10D28FBCFF60072BBB4 /* SDWebImage in Frameworks */,
+				04944CD828FC2DDE009EA624 /* SideMenu in Frameworks */,
+				04C5B10A28FBCB890072BBB4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +100,82 @@
 		04C5B0DB28FB94EB0072BBB4 /* HBOMaxClone */ = {
 			isa = PBXGroup;
 			children = (
+				04C5B0FB28FBA4EC0072BBB4 /* Services */,
+				04C5B0FA28FBA4E60072BBB4 /* Resources */,
+				04C5B0F928FBA4DB0072BBB4 /* Models */,
+				04C5B0F828FBA4D50072BBB4 /* ViewModels */,
+				04C5B0F728FBA4D10072BBB4 /* Views */,
+				04C5B0F028FB9CC00072BBB4 /* Controllers */,
 				04C5B0DC28FB94EB0072BBB4 /* AppDelegate.swift */,
 				04C5B0DE28FB94EB0072BBB4 /* SceneDelegate.swift */,
-				04C5B0E028FB94EB0072BBB4 /* ViewController.swift */,
-				04C5B0E228FB94EB0072BBB4 /* Main.storyboard */,
+				04C5B0E028FB94EB0072BBB4 /* TabBarViewController.swift */,
 				04C5B0E528FB94EE0072BBB4 /* Assets.xcassets */,
 				04C5B0E728FB94EF0072BBB4 /* LaunchScreen.storyboard */,
 				04C5B0EA28FB94EF0072BBB4 /* Info.plist */,
+				040E668728FD0F7900A6AF1F /* HBOMax.xcdatamodeld */,
 			);
 			path = HBOMaxClone;
+			sourceTree = "<group>";
+		};
+		04C5B0F028FB9CC00072BBB4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04C5B0F128FB9CD70072BBB4 /* MainViewController.swift */,
+				04C5B0F328FB9CF80072BBB4 /* SearchViewController.swift */,
+				04C5B0F528FB9D080072BBB4 /* DownloadedsViewController.swift */,
+				04944CD428FC2731009EA624 /* SearchResultsViewController.swift */,
+				046DBAE428FCE93A00837C85 /* MovieDetailsUIViewController.swift */,
+				046DBAEB28FCFE8600837C85 /* WhoIsWatchingViewController.swift */,
+				040E666228FD0A5100A6AF1F /* ProgramaticLaunchScreenViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04C5B0F728FBA4D10072BBB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				04C5B0FC28FBA50B0072BBB4 /* CollectionViewTableViewCell.swift */,
+				04C5B0FE28FBA8590072BBB4 /* FeaturedHeaderView.swift */,
+				04C5B10628FBCAC10072BBB4 /* ContentCollectionViewCell.swift */,
+				04966FDB28FC15AE00F52ED2 /* ContentTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04C5B0F828FBA4D50072BBB4 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				04966FDD28FC17F800F52ED2 /* ContentViewModel.swift */,
+				046DBAE628FCEAF600837C85 /* MovieDetailViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04C5B0F928FBA4DB0072BBB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				04C5B10228FBC2AF0072BBB4 /* Movie.swift */,
+				04966FDF28FC1E5A00F52ED2 /* Discover.swift */,
+				046DBAE228FCE4D400837C85 /* YoutubeResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04C5B0FA28FBA4E60072BBB4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04C5B10428FBC4600072BBB4 /* Extensions.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04C5B0FB28FBA4EC0072BBB4 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				04C5B10028FBBEF50072BBB4 /* APIManager.swift */,
+				040E668A28FD16A600A6AF1F /* DataPersistenceManager.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +194,11 @@
 			dependencies = (
 			);
 			name = HBOMaxClone;
+			packageProductDependencies = (
+				04C5B10928FBCB890072BBB4 /* Kingfisher */,
+				04C5B10C28FBCFF60072BBB4 /* SDWebImage */,
+				04944CD728FC2DDE009EA624 /* SideMenu */,
+			);
 			productName = HBOMaxClone;
 			productReference = 04C5B0D928FB94EB0072BBB4 /* HBOMaxClone.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +227,11 @@
 				Base,
 			);
 			mainGroup = 04C5B0D028FB94EB0072BBB4;
+			packageReferences = (
+				04C5B10828FBCB890072BBB4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				04C5B10B28FBCFF60072BBB4 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				04944CD628FC2DDE009EA624 /* XCRemoteSwiftPackageReference "SideMenu" */,
+			);
 			productRefGroup = 04C5B0DA28FB94EB0072BBB4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +248,6 @@
 			files = (
 				04C5B0E928FB94EF0072BBB4 /* LaunchScreen.storyboard in Resources */,
 				04C5B0E628FB94EE0072BBB4 /* Assets.xcassets in Resources */,
-				04C5B0E428FB94EB0072BBB4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +258,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C5B0E128FB94EB0072BBB4 /* ViewController.swift in Sources */,
+				046DBAE528FCE93A00837C85 /* MovieDetailsUIViewController.swift in Sources */,
+				04C5B0F428FB9CF80072BBB4 /* SearchViewController.swift in Sources */,
+				04C5B0E128FB94EB0072BBB4 /* TabBarViewController.swift in Sources */,
 				04C5B0DD28FB94EB0072BBB4 /* AppDelegate.swift in Sources */,
+				04C5B10128FBBEF50072BBB4 /* APIManager.swift in Sources */,
+				04966FDC28FC15AE00F52ED2 /* ContentTableViewCell.swift in Sources */,
+				040E668928FD0F7900A6AF1F /* HBOMax.xcdatamodeld in Sources */,
+				040E666328FD0A5100A6AF1F /* ProgramaticLaunchScreenViewController.swift in Sources */,
+				04C5B10328FBC2AF0072BBB4 /* Movie.swift in Sources */,
+				04C5B0FD28FBA50B0072BBB4 /* CollectionViewTableViewCell.swift in Sources */,
+				04C5B0F628FB9D080072BBB4 /* DownloadedsViewController.swift in Sources */,
+				040E668B28FD16A600A6AF1F /* DataPersistenceManager.swift in Sources */,
 				04C5B0DF28FB94EB0072BBB4 /* SceneDelegate.swift in Sources */,
+				046DBAE328FCE4D400837C85 /* YoutubeResponse.swift in Sources */,
+				04944CD528FC2731009EA624 /* SearchResultsViewController.swift in Sources */,
+				04C5B10728FBCAC10072BBB4 /* ContentCollectionViewCell.swift in Sources */,
+				04966FDE28FC17F800F52ED2 /* ContentViewModel.swift in Sources */,
+				046DBAEC28FCFE8600837C85 /* WhoIsWatchingViewController.swift in Sources */,
+				04966FE028FC1E5A00F52ED2 /* Discover.swift in Sources */,
+				046DBAE728FCEAF600837C85 /* MovieDetailViewModel.swift in Sources */,
+				04C5B0F228FB9CD70072BBB4 /* MainViewController.swift in Sources */,
+				04C5B10528FBC4600072BBB4 /* Extensions.swift in Sources */,
+				04C5B0FF28FBA8590072BBB4 /* FeaturedHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		04C5B0E228FB94EB0072BBB4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				04C5B0E328FB94EB0072BBB4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		04C5B0E728FB94EF0072BBB4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +424,6 @@
 				INFOPLIST_FILE = HBOMaxClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +451,6 @@
 				INFOPLIST_FILE = HBOMaxClone/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +488,64 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		04944CD628FC2DDE009EA624 /* XCRemoteSwiftPackageReference "SideMenu" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kukushi/SideMenu.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		04C5B10828FBCB890072BBB4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		04C5B10B28FBCFF60072BBB4 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		04944CD728FC2DDE009EA624 /* SideMenu */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04944CD628FC2DDE009EA624 /* XCRemoteSwiftPackageReference "SideMenu" */;
+			productName = SideMenu;
+		};
+		04C5B10928FBCB890072BBB4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04C5B10828FBCB890072BBB4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		04C5B10C28FBCFF60072BBB4 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 04C5B10B28FBCFF60072BBB4 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		040E668728FD0F7900A6AF1F /* HBOMax.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				040E668828FD0F7900A6AF1F /* HBOMax.xcdatamodel */,
+			);
+			currentVersion = 040E668828FD0F7900A6AF1F /* HBOMax.xcdatamodel */;
+			path = HBOMax.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 04C5B0D128FB94EB0072BBB4 /* Project object */;
 }
