@@ -78,7 +78,7 @@ class MovieDetailsUIViewController: UIViewController {
         
         makeConstraints()
         
-        view.backgroundColor = UIColor(patternImage: UIImage(named: "purpleGradient.png")!)
+     
         navigationController?.isNavigationBarHidden = true
         navigationController?.navigationBar.tintColor = UIColor.white
 

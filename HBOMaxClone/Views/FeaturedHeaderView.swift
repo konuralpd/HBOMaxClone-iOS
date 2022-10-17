@@ -84,7 +84,7 @@ class FeaturedHeaderView: UIView {
     private let featuredMovieLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont(name: "HelveticaNeue-Thin", size: 36.0)!
-        label.text = "House Of Dragons"
+        label.text = "House of the Dragon"
         label.translatesAutoresizingMaskIntoConstraints = false
         return label
     }()
