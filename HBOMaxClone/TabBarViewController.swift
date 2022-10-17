@@ -29,7 +29,7 @@ class TabBarViewController: UITabBarController {
         vc3.tabBarItem.image = UIImage(named: "download")
         
         vc1.title = "Anasayfa"
-        vc2.title = "Ara"
+        vc2.title = "Arama"
         vc3.title = "Kaydedilenler"
         
         tabBar.tintColor = .label
